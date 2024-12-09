@@ -1,0 +1,69 @@
+body {
+    font-family: Arial, sans-serif;
+    background: url('background.jpeg') no-repeat center center fixed; /* Add your background image here */
+    background-size: cover; /* Ensure the image covers the entire viewport */
+    color: #333;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    max-width: 400px;
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.6); /* Adjust transparency here */
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3); /* Add subtle shadow for contrast */
+}
+
+h1 {
+    font-size: 28px; /* Slightly larger font size */
+    color: white; /* A darker blue shade for contrast */
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    box-sizing: border-box; /* Ensures proper box sizing */
+    background-color: rgba(255, 255, 255, 0.8); /* Transparent background */
+    color: #333; /* Input text color */
+}
+
+button {
+    background-color: rgba(115, 64, 216, 0.8); /* Transparent button background */
+    color: #fff;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Smooth hover transition */
+}
+
+button:hover {
+    background-color: rgba(115, 64, 216, 0.8); /* Slightly darker on hover */
+}
+
+.weather-info {
+    margin-top: 20px;
+    background-color: rgba(255, 255, 255, 0.5); /* Transparent background for weather info */
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.weather-info h2 {
+    font-size: 20px;
+    color: #333;
+}
+
+.weather-info p {
+    font-size: 16px;
+    color: #555;
+}
